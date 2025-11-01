@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "random-words": "^1.3.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.5.4"
+  },
+  "name": "fastfinger",
+  "version": "1.0.0",
+  "main": "frontend/index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A multiplayer typing race game build using NodeJS integrated with Websockets(Socket.io). Create rooms and share room code with your friends and enjoy the battle."
+}
