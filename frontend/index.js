@@ -2206,7 +2206,7 @@ process.umask = function() { return 0; };
 
 },{}],5:[function(require,module,exports){
 const io = require("socket.io-client");
-const socket = io("http://localhost:5000");
+const socket = io("https://typeracer-lt2h.onrender.com/");
 
 
 let page1 = document.getElementById("page1");
